@@ -10,10 +10,9 @@
 		}
 		
 		.tombol {
-			background-color: #ff1111;
-			border: none;
+			background-color: #000080;
 			color: white;
-			padding: 15px 15px;
+			padding: 10px 15px;
 		}
 		
 		#form1layout {
@@ -32,8 +31,9 @@
 		}
 		
 		#form1layout input[type="text"], #regForm textarea {
-			width: 300px;
+			width: 305px;
 		}
+
 </style>
 
 <body>
@@ -45,7 +45,7 @@
 		<input type="radio" name="gender" value="perempuan" /> P<br>
 		<label>Tanggal Lahir : </label><input type="text" name="tglLahir" value="" /><br>
 		<label>Alamat : </label><textarea rows="4" cols="40"></textarea><br>
-		<button >Submit</button>
+		<button class="tombol" >Submit</button>
 
 	</div>
     </form>
